@@ -1,7 +1,10 @@
 [project]
 name = "auto-archive-link"
 version = "0.1.0"
-description = "Add your description here"
+description = "Discord bot that adds archive links"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "discord-py>=2.5.2",
+    "dotenv>=0.9.9",
+]

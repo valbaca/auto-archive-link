@@ -1,3 +1,5 @@
+# .env for env var secrets
+.env
 # Python-generated files
 __pycache__/
 *.py[oc]
