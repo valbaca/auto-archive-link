@@ -1,5 +1,3 @@
-import logging
-from logging import getLogger
 import re
 import dotenv
 import os
@@ -7,7 +5,6 @@ import discord
 from discord.ext import commands
 import tldextract
 from domains import domains_to_archive
-from urllib.parse import urlparse
 
 description = """
 A simple discord bot that provides archive.is links for urls
