@@ -56,7 +56,8 @@ async def on_message(message: discord.Message):
         return
     for url in urls:
         if should_archive_link(url):
-            await message.reply(to_archive_link(url))
+            reply_content = to_archive_link(url)
+            await message.reply(reply_content, silent=True, mention_author=None)
     return
 
 

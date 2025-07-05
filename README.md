@@ -12,6 +12,8 @@ OR the bot can be manually invoked with !archive
 
 ## Deploying
 
-`fly deploy`
+`fly deploy --ha=false`
+
+- `--ha=false` ensures only ONE machine is running (so you don't get multiple bot replies!) (ha = high availability)
 
 It pulls DISCORD_TOKEN from Fly.io Secrets
