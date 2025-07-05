@@ -1,0 +1,19 @@
+# fly.toml app configuration file generated for auto-archive-link on 2025-07-04T19:42:59-07:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'auto-archive-link'
+primary_region = 'sea'
+
+[[services]]
+  protocol = 'tcp'
+  internal_port = 3000
+  auto_stop_machines = 'off'
+  auto_start_machines = false
+  ports = []
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1

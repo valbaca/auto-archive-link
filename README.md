@@ -1,4 +1,4 @@
-## Auto Archive Link
+# Auto Archive Link
 
 A simple discord bot that provides archive.is links for urls
 
@@ -9,3 +9,9 @@ OR the bot can be manually invoked with !archive
 ## TODO
 
 - [ ] Provide a way for people to react / reply and have a domain be added to the *specified domains*
+
+## Deploying
+
+`fly deploy`
+
+It pulls DISCORD_TOKEN from Fly.io Secrets
