@@ -4,4 +4,5 @@ domains_to_archive = (
     "theguardian.com",
     "nytimes.com",
     "seattletimes.com",
+    "medium.com",
 )
